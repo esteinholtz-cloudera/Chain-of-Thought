@@ -34,7 +34,6 @@ tasks:
     script: 1_app/wrapper.py
     short_summary: Start CML Chain-of-thought application
     long_summary: 
-    
     cpu: 2
     memory: 16
     environment_variables:
