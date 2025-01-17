@@ -18,7 +18,7 @@ runtimes:
   - editor: JupyterLab
     kernel: Python 3.11
     edition: Standard
-    
+
 tasks:
   - type: run_session
     name: Install Dependencies
@@ -30,7 +30,7 @@ tasks:
   
   - type: start_application
     name: Chain-of-thought Q&A engine
-    subdomain: cmlllm
+    subdomain: chain-of-thought
     script: 1_app/wrapper.py
     short_summary: Start CML Chain-of-thought application
     long_summary: 
