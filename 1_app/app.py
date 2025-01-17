@@ -1,5 +1,5 @@
 import streamlit as st
-from g1 import generate_response
+from lib.g1 import generate_response
 import json
 
 

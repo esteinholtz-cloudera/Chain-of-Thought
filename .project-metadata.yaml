@@ -7,7 +7,7 @@ prototype_version: 1.0
 date: "2025-01-17"
 
 environment_variables:
-  GRQQ_API_KEY:
+  GROQ_API_KEY:
     default: "gsk_9HhKwut4sOL94vUCGB3XWGdyb3FY62FPkOuJyaMLXRM6EkcJlsY"
     description: "Access Key ID for using the groq API"
 
@@ -28,7 +28,7 @@ tasks:
   - type: start_application
     name: Chain-of-thought Q&A engine
     subdomain: cmlllm
-    script: 1_app/app.py
+    script: 1_app/wrapper.py
     short_summary: Start CML Chain-of-thought application
     long_summary: 
     
