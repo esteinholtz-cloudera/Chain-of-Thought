@@ -1,0 +1,21 @@
+name: OpenAI Chatbot AMP
+
+entries:
+  - title: Groq QA engine leveraging Chain-of-thought
+    label: llm-chatbot
+    short_description: |
+        Leverage groq to experiment with Chain-of-thought
+    long_description: |
+
+    image_path: >-
+      https://miro.medium.com/v2/resize:fit:1358/1*g5Q-4lGt9UySnOK0JRQiPg.jpeg
+    tags:
+      - Q&A
+      - LLM
+      - Groq
+      - Generative AI
+      - Chain-of-thought
+      - Transformers
+      - NLP
+    git_url: 'https://github.com/esteinholtz-cludera/g1'
+    is_prototype: true

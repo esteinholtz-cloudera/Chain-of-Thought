@@ -1,0 +1,38 @@
+name: Groq Q&A usingChain of Chain-of-thought
+description: |
+
+author: Erik Steinholtz
+specification_version: 1.0
+prototype_version: 1.0
+date: "2025-01-17"
+
+environment_variables:
+  GRQQ_API_KEY:
+    default: "gsk_9HhKwut4sOL94vUCGB3XWGdyb3FY62FPkOuJyaMLXRM6EkcJlsY"
+    description: "Access Key ID for using the groq API"
+
+runtimes:
+  - editor: Workbench
+    kernel: Python 3.10
+    edition: Standard
+
+tasks:
+  - type: run_session
+    name: Install Dependencies
+    script: 0_setup/install_dependencies.py
+    short_summary: Install Dependencies
+    kernel: python3.10
+    cpu: 2
+    memory: 8
+  
+  - type: start_application
+    name: Chain-of-thought Q&A engine
+    subdomain: cmlllm
+    script: 1_app/app.py
+    short_summary: Start CML Chain-of-thought application
+    long_summary: 
+    
+    cpu: 2
+    memory: 16
+    environment_variables:
+      TASK_TYPE: START_APPLICATION
