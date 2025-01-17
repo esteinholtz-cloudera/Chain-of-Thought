@@ -10,6 +10,9 @@ environment_variables:
   GROQ_API_KEY:
     default: "gsk_9HhKwut4sOL94vUCGB3XWGdyb3FY62FPkOuJyaMLXRM6EkcJlsY"
     description: "Access Key ID for using the groq API"
+  CDSW_APP_PORT:
+    default: "8509"
+    description: "Port used to communicate with application"
 
 runtimes:
   - editor: Workbench

@@ -1,1 +1,1 @@
-!streamlit run app.py
+!streamlit run 1_app/app.py --server.port $CDSW_APP_PORT --server.address 127.0.0.1
