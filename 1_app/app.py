@@ -13,8 +13,6 @@ def main():
     
     st.markdown("""
     This is an early prototype of using prompting to create o1-like reasoning chains to improve output accuracy. It is not perfect and accuracy has yet to be formally evaluated. It is powered by Groq so that the reasoning step is fast!
-                
-    Open source [repository here](https://github.com/bklieger-groq)
     """)
     
     # Text input for user query
