@@ -17,5 +17,5 @@ entries:
       - Chain-of-thought
       - Transformers
       - NLP
-    git_url: 'https://github.com/esteinholtz-cludera/g1'
+    git_url: 'https://github.com/esteinholtz-cludera/Chain-of-Thought'
     is_prototype: true
