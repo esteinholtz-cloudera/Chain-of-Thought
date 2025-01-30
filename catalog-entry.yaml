@@ -1,7 +1,7 @@
-name: OpenAI Chatbot AMP
+name: Chain-Of-Thought
 
 entries:
-  - title: Groq QA engine leveraging Chain-of-thought
+  - title: Groq Q&A engine leveraging Chain-of-thought
     label: llm-chatbot
     short_description: |
         Leverage groq to experiment with Chain-of-thought
@@ -17,5 +17,5 @@ entries:
       - Chain-of-thought
       - Transformers
       - NLP
-    git_url: 'https://github.com/esteinholtz-cludera/g1'
+    git_url: 'https://github.com/esteinholtz-cloudera/Chain-of-Thought'
     is_prototype: true
